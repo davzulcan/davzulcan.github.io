@@ -24,7 +24,14 @@ crossorigin="anonymous">
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg top-bar">        
+        <nav class="navbar top-bar mx-auto d-block d-lg-none">                
+            <ul class="navbar-nav ">
+                <li>
+                    <a class="nav-link" href="#"><img class="logo-small" src="Kellogg_Logos_SOM/Horizontal_SOM/KelloggSOM_H_white.png" alt="Kellogg"></a>
+                </li>
+            </ul>    
+        </nav>
+        <nav class="navbar navbar-expand-lg top-bar d-none d-lg-block">        
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li>
@@ -42,10 +49,13 @@ crossorigin="anonymous">
             </div>
         </nav>
         <nav class="navbar navbar-expand-lg bottom-bar">        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: #4F2582"><img class="logo-small" src="pak_toggle.png" alt="Kellogg"></span>
+            </button>       
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto logo_size">
-                        <li><a class="nav-link emphasis" href="index.html">Pride@Kellogg</a></li>
-                        <li><a class="nav-link emphasis" href="index.html">|</a></li>
+                        <li><a class="nav-link emphasis d-none d-lg-block" href="index.html">Pride@Kellogg</a></li>
+                        <li><a class="nav-link emphasis d-none d-lg-block" href="index.html">|</a></li>
                         <li><a class="nav-link active" href="index.html">HOME</a></li>
                         <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

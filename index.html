@@ -25,11 +25,18 @@ crossorigin="anonymous">
 <body>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg top-bar">        
+        <nav class="navbar top-bar mx-auto d-block d-lg-none">                
+            <ul class="navbar-nav ">
+                <li>
+                    <a class="nav-link" href="#"><img class="logo-small" src="Kellogg_Logos_SOM/Horizontal_SOM/KelloggSOM_H_white.png" alt="Kellogg"></a>
+                </li>
+            </ul>    
+        </nav>
+        <nav class="navbar navbar-expand-lg top-bar d-none d-lg-block">        
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li>
-                        <a class="nav-link" href="#"><img class="nhl" src="Kellogg_Logos_SOM/Horizontal_SOM/KelloggSOM_H_white.png" alt="Kellogg"></a>
+                        <a class="nav-link" href="#"><img src="Kellogg_Logos_SOM/Horizontal_SOM/KelloggSOM_H_white.png" alt="Kellogg"></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
@@ -42,45 +49,48 @@ crossorigin="anonymous">
                 </ul>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg bottom-bar">        
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto logo_size">
-                        <li><a class="nav-link emphasis" href="index.html">Pride@Kellogg</a></li>
-                        <li><a class="nav-link emphasis" href="index.html">|</a></li>
-                        <li><a class="nav-link active" href="index.html">HOME</a></li>
-                        <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ABOUT US
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item dead" href="#">Mission</a>
-                                    <a class="dropdown-item dead" href="#">History</a>
-                                    <a class="dropdown-item" href="about_board.html">Executive Committee</a>
-                                </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                APPLICANTS
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item dead" href="#">Connect with P@K</a>
-                                    <a class="dropdown-item dead" href="#">LGBTQ+ Preview Day</a>
-                                    <a class="dropdown-item dead" href="#">Application FAQ</a>
-                                </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    CAREER SUPPORT
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item dead" href="#">Employers</a>
-                                    <a class="dropdown-item dead" href="#">P@K at ROMBA</a>
-                                </div>
-                        </li>
-                        <li><a class="nav-link" href="alumni.html">ALUMNI</a></li>
-                        <li><a class="nav-link dead" href="#">CONTACT US</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg bottom-bar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: #4F2582"><img class="logo-small" src="pak_toggle.png" alt="Kellogg"></span>
+            </button>       
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto logo_size">
+                    <li><a class="nav-link emphasis d-none d-lg-block" href="index.html">Pride@Kellogg</a></li>
+                    <li><a class="nav-link emphasis d-none d-lg-block" href="index.html">|</a></li>
+                    <li><a class="nav-link active" href="index.html">HOME</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item dead" href="#">Mission</a>
+                            <a class="dropdown-item dead" href="#">History</a>
+                            <a class="dropdown-item" href="about_board.html">Executive Committee</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            APPLICANTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item dead" href="#">Connect with P@K</a>
+                            <a class="dropdown-item dead" href="#">LGBTQ+ Preview Day</a>
+                            <a class="dropdown-item dead" href="#">Application FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CAREER SUPPORT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item dead" href="#">Employers</a>
+                            <a class="dropdown-item dead" href="#">P@K at ROMBA</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-link" href="alumni.html">ALUMNI</a></li>
+                    <li><a class="nav-link dead" href="#">CONTACT US</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
     <div class="container-fluid">
@@ -124,8 +134,8 @@ crossorigin="anonymous">
         </div>
     </div>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg top-bar">
-                <ul class="navbar-nav ml-auto">
+        <nav class="navbar navbar-expand-lg top-bar" id="social-media-bar">
+                <ul class="navbar-nav ml-auto d-none d-lg-block">
                     <li>
                         <a class="nav-link" href="https://www.linkedin.com/groups/1794045">
                             <i class="fab fa-linkedin fa-lg" style="color: #FFFFFF"></i>

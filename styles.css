@@ -86,3 +86,7 @@ table.exec_pics img {
 strong a{
     color: #4F2582;
 }
+
+.logo-small {
+    height: 30px;
+}
