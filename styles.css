@@ -32,3 +32,20 @@ div.transbox {
     background: rgba(220, 220, 220, 0.8);
     color: #000000;
   }
+
+  table.headshots img {
+    height: 100px;
+  }
+
+  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+  h1 {
+    color: #4F2582;
+  }
+
+  table.white {
+      background: #FFFFFF;
+  }
