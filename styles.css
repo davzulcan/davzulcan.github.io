@@ -45,6 +45,9 @@ div.transbox {
   h1 {
     color: #4F2582;
   }
+  h5 {
+    color: #4F2582;
+  }
 
   table.white {
       background: #FFFFFF;
@@ -58,7 +61,28 @@ a.dead{
     color: #DCDCDC;
 }
 
+.footnote {
+    font-style: italic;
+    font-size: 10px;
+}
+
 table.exec_pics img {
     border-radius: 20px;
     max-width: 100%;
+}
+
+.alumni_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#alumni_hero {
+    width: auto;
+    height: 400px;
+    margin: 0 auto;
+}
+
+strong a{
+    color: #4F2582;
 }
